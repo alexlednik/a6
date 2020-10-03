@@ -54,7 +54,7 @@ function handleClick(event) {
 }
 
 function init() {
-  // TODO: заказчик просил отдельную кнопку, запускающую игру а не просто по загрузке
+  // TODO - DONE: заказчик просил отдельную кнопку, запускающую игру а не просто по загрузке
   
   $("#button-start").click(() => {
     $(".miss").removeClass("miss");
